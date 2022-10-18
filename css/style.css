@@ -1,0 +1,247 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(148, 148, 148);
+    margin: 0 7% 2%;
+}
+.titulo {
+    background-image: url(../images/inicio/fondotitulo.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    justify-content: center;
+}
+.titulo h1 {
+    font-size: 180%;
+    margin-right: 5%;
+}
+.titulo img {
+    border-radius: 50%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.subtitulo {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-style: italic;
+}
+.subtitulo p {
+    margin-top: 1%;
+    font-style: oblique;
+}
+.barraprincipal {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0.438em 0.813em 2.313em rgb(0, 0, 0);
+    background-color: #3083DC;
+    
+}
+.barraprincipal ul {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.barraprincipal ul li {
+    padding-left: 3%;
+    padding-right: 3%;
+    list-style: none;
+}
+.barraprincipal a, .linkimages {
+    text-decoration: none;
+    color: white;
+}
+.barraprincipal a:hover, .linkimages:hover {
+    color: blue;
+}
+.textimages img {
+    box-shadow: 0.438em 0.813em 2.313em rgb(0, 0, 0);
+    border-radius: 5%;
+}
+.imgcelus {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.imgcompus, .imgaccesorios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.imgcelus img, .imgcompus img, .imgaccesorios img {
+    height: 12.625em;
+    width: 15.625em;
+    margin: 5% 0;
+}
+figcaption {
+    align-items: baseline;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.lista-productos {
+    margin-top: 3%;
+}
+.lista-productos h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-style: italic;
+    color: white;
+}
+.lista-productos-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 0.063em solid black;
+    border-radius: 1.3em;
+    padding-left: 1%;
+    align-items: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-bottom: 0.5%;
+}
+.div-lista {
+    display: flex;
+    flex-direction: row;
+    margin-right: 1%;
+}
+.btn-lista-viewdetails, .btn-lista-update, .btn-lista-delete, .btn-lista-return {
+    color: white;
+    border-radius: 0.500em;
+    border: 0.1em solid black;
+    margin-right: 2%;
+    padding: 0.35em;
+    text-decoration: none;
+}
+.btn-lista-viewdetails {
+    background-color: #35c3dc;
+}
+.btn-lista-update {
+    background-color: #198754;
+}
+.btn-lista-delete {
+    background-color: #dc3545;
+}
+.btn-lista-return {
+    margin-right: 2%;
+    background-color: #525252;
+}
+.forms {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-right: 30%;
+}
+.forms h2 {
+    margin-bottom: 3%;
+}
+.form-container input, textarea, select {
+    display: flex;
+    background-color: #9da1a5;
+    color: white;
+    padding: 1.5% 50% 1.5% 0%;
+    margin-bottom: 1%;
+    border-radius: 0.625em;
+    border: 0.200em solid black;
+    font-size: 90%;
+}
+.form-container button {
+    background-color: rgb(0, 89, 255);
+    margin-top: 2%;
+    padding: 3%;
+    border-radius: 0.625em;
+    border: 0.150em solid white;
+    font-size: 90%;
+    color: white;
+}
+.login {
+    display: flex;
+    justify-content: center;
+}
+.form {
+    background-image: url(../images/inicio/fondo_form2.jpg);
+    box-shadow: 0.438em 0.813em 2.313em rgb(0, 0, 0);
+    color: white;
+    width: 30%;
+    border-radius: 0.625em;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+.form h3 {
+    font-size: 150%;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.controls {
+    background-color: rgb(187, 187, 187);
+    color: white;
+    padding: 2.5%;
+    margin-bottom: 3%;
+    border-radius: 0.625em;
+    border: 0.200em solid blue;
+    font-size: 90%;
+    width: 70%;
+}
+.button {
+    background-color: blue;
+    padding: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 0.625em;
+    border: 0.150em solid white;
+    font-size: 90%;
+    color: white;
+    width: 25%;
+}
+.showError {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    align-items: center;
+    color: white;
+}
+.pie h3 {
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+.pie h4 {
+    margin: 1% 4%;
+}
+.pie p {
+    margin: 2% 4% 0 4%;
+}
+.pie li {
+    margin-left: 6%;
+    list-style: square;
+}
+.listacontacto {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    margin-top: 2%;
+    padding: 2% 0 2% 2%;
+    border-radius: 0.625em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+.logoredes {
+    border-radius: 0.35em;
+}
